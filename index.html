@@ -11,6 +11,7 @@
     h3 { font-size: 1rem; margin-top: 1.25rem; font-weight: 600; }
     .muted { color: #555; font-size: 0.9rem; }
     .identity { background: #f6f8fa; border: 1px solid #ddd; border-radius: 6px; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .note { background: #fffbea; border: 1px solid #e8d48a; border-radius: 6px; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.95rem; }
     a { color: #06c; }
     ul { padding-left: 1.25rem; }
   </style>
@@ -19,11 +20,12 @@
   <h1>Privacy Policy — Sharp Jokes</h1>
 
   <div class="identity">
-    <p style="margin:0;"><strong>Application name (as in HUAWEI AppGallery Connect):</strong> Sharp Jokes</p>
-    <p style="margin:0.5rem 0 0 0;"><strong>Developer / Publisher (as in HUAWEI AppGallery Connect):</strong> Siarhei Piachko</p>
+    <p style="margin:0;"><strong>Application:</strong> Sharp Jokes (also listed as <em>Dirty Jokes</em> on some stores)</p>
+    <p style="margin:0.5rem 0 0 0;"><strong>Package name:</strong> com.regiuslab.dirtyjokes</p>
+    <p style="margin:0.5rem 0 0 0;"><strong>Developer / Publisher:</strong> Siarhei Piachko</p>
   </div>
 
-  <p class="muted">Last updated: May 2026 (app update 1.0.0). <strong>Sharp Jokes</strong> is a jokes app in a card-style UI. Privacy questions: <a href="mailto:regius.lab@gmail.com">regius.lab@gmail.com</a>.</p>
+  <p class="muted">Last updated: June 2026. <strong>Sharp Jokes</strong> is a jokes app in a card-style UI. Privacy questions: <a href="mailto:regius.lab@gmail.com">regius.lab@gmail.com</a>.</p>
 
   <h2>1. Data we collect (on your device)</h2>
   <p>This app stores data locally on your device using local storage (for example SharedPreferences or similar on-device storage). The app does not require account registration. We do <strong>not</strong> operate our own backend servers to collect or store your joke content or app settings.</p>
@@ -44,8 +46,28 @@
 
   <p>We do not ask for your contacts, precise location, photos, microphone access, or other sensitive device data for the app&rsquo;s own features.</p>
 
-  <h2>2. Advertising (Huawei Ads Kit)</h2>
-  <p>This app may use <strong>Huawei Ads Kit</strong> to display ads (for example a banner at the top of the joke screen). Huawei&rsquo;s advertising services (and, where applicable, their advertising partners) act as <strong>independent processors</strong> and handle data under Huawei&rsquo;s policies and your device settings.</p>
+  <h2>2. Advertising</h2>
+
+  <div class="note">
+    <p style="margin:0;"><strong>Important:</strong> We publish this app on more than one app store. The advertising SDK integrated in your copy depends on <strong>where you downloaded the app</strong>. Only the section that matches your store applies to you.</p>
+  </div>
+
+  <h3>2.1 Google Play version — Yandex Mobile Ads</h3>
+  <p>If you installed this app from <strong>Google Play</strong>, it may use the <strong>Yandex Mobile Ads SDK</strong> to display ads (for example a banner at the top of the joke screen). Yandex and its advertising partners act as <strong>independent processors</strong> and handle data under Yandex&rsquo;s policies and your device settings.</p>
+  <p>For ad delivery, measurement, fraud prevention, and related purposes, such services may process categories of information that typically include:</p>
+  <ul>
+    <li><strong>Advertising/device identifiers</strong>, such as the Google advertising ID (GAID) or similar identifiers on Android, where available;</li>
+    <li><strong>App-related metadata</strong>, such as the application package name and version;</li>
+    <li><strong>Device and software information</strong>, such as device model, display parameters, operating system version, language, and country/region;</li>
+    <li><strong>Network-related information</strong>, such as network connection type, carrier identifiers where available, and IP address;</li>
+    <li><strong>Approximate location</strong> derived from technical signals (for example IP-based region) where used for advertising;</li>
+    <li><strong>Ad interaction data</strong>, such as impressions, clicks, or related events.</li>
+  </ul>
+  <p>Google Play builds do <strong>not</strong> include Huawei Ads Kit. For details on how Yandex processes data for advertising, see Yandex&rsquo;s published materials, including the <a href="https://yandex.com/legal/international_ads_privacy_policy/en/" rel="noopener noreferrer">Yandex Ads privacy policy</a> and <a href="https://ads.yandex.com/helpcenter/en/dev/android/app-privacy-android" rel="noopener noreferrer">Yandex Mobile Ads SDK data disclosure guidance</a>. We do not operate Yandex&rsquo;s advertising systems.</p>
+  <p>You may be able to limit ad personalization or reset your advertising identifier in your Android device settings (Google / Ads settings), where available.</p>
+
+  <h3>2.2 HUAWEI AppGallery version — Huawei Ads Kit</h3>
+  <p>If you installed this app from <strong>HUAWEI AppGallery</strong>, it may use <strong>Huawei Ads Kit</strong> to display ads (for example a banner at the top of the joke screen). Huawei&rsquo;s advertising services (and, where applicable, their advertising partners) act as <strong>independent processors</strong> and handle data under Huawei&rsquo;s policies and your device settings.</p>
   <p>For ad delivery, measurement, fraud prevention, and related purposes, such services may process categories of information that typically include:</p>
   <ul>
     <li><strong>Advertising/device identifiers</strong>, such as the Open Advertising Identifier (OAID) on supported Huawei devices;</li>
@@ -55,10 +77,11 @@
     <li><strong>Approximate location</strong> derived from technical signals (for example IP-based region) where used for advertising;</li>
     <li><strong>Ad interaction data</strong>, such as impressions, clicks, or related events.</li>
   </ul>
-  <p>For details on how Huawei processes data for ads—including applicable notices for your region—see Huawei&rsquo;s official privacy and Ads-related documentation. We do not operate Huawei&rsquo;s advertising systems; questions about their processing practices are best directed to Huawei&rsquo;s published materials.</p>
+  <p>AppGallery builds do <strong>not</strong> include the Yandex Mobile Ads SDK. For details on how Huawei processes data for ads—including applicable notices for your region—see Huawei&rsquo;s official privacy and Ads-related documentation. We do not operate Huawei&rsquo;s advertising systems.</p>
 
   <h2 id="rights">3. Your privacy rights (data subject rights)</h2>
-  <p>You may contact us at the email above with questions about this policy or requests regarding data processing related to <strong>Sharp Jokes</strong>. Where Huawei or its partners process data for advertising, you may also use device settings (for example advertising ID or privacy options offered by the platform) as described in Huawei&rsquo;s materials.</p>
+  <p>You may contact us at the email above with questions about this policy or requests regarding data processing related to <strong>Sharp Jokes</strong>.</p>
+  <p>Where a third-party advertising provider (Yandex on Google Play, or Huawei on AppGallery) or its partners process data for advertising, you may also use device or platform settings (for example advertising ID controls or privacy options offered by your device manufacturer or store) as described in that provider&rsquo;s published materials.</p>
   <p>Data stored only on your device (such as favorites, your own jokes in My Jokes, and app settings) can typically be cleared by uninstalling the app or using your device&rsquo;s option to clear app data / storage for Sharp Jokes, where available.</p>
   <p>If you believe we have handled your request incorrectly, you may contact us again or seek remedies available under applicable law in your region.</p>
 
